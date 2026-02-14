@@ -7,8 +7,9 @@ Relog Digital Basico
 ---
 
 ## 📋 Contenido
-
---Fecha 
+-- Relog Digital
+--Fecha: hora, minutos, segundos
+--día semana 
 
 ---
 
