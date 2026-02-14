@@ -8,7 +8,7 @@ const mostrarReloj = () => {
     const meses = ['Ene', 'Feb', 'Mar', 'Abr', 'May','Jun', 'Jul', 'Ago', 'Sept', 'Oct', 'Nov', 'Dic']
       const dias = ['Dom','Lun', 'Mar', 'Mie', 'Juv', 'Vie','Sab'];
       let diaSemana = dias[fecha.getDay()];
-      let dia = formatoFecha(fecha.getDay());
+      let dia = formatoFecha(fecha.getDate());
       let mes = meses[fecha.getMonth()]
       let fechaTexto=`${diaSemana},${dia} ${mes}`;
       document.getElementById('fecha').innerHTML = fechaTexto;
